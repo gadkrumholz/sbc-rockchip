@@ -8,7 +8,11 @@ dependencies:
   - stage: rockpi4
   - stage: rockpi4c
   - stage: rock4cplus
+<<<<<<< HEAD
   - stage: rock4se
+=======
+  - stage: soquartz-cm4
+>>>>>>> cc64454 (feat: support the Pine64 SOQuartz CM4 module)
   - stage: profiles
   - stage: u-boot-nanopi-r4s
     platform: linux/arm64
@@ -23,6 +27,8 @@ dependencies:
   - stage: u-boot-rock4cplus
     platform: linux/arm64
   - stage: u-boot-rock4se
+    platform: linux/arm64
+  - stage: u-boot-soquartz-cm4
     platform: linux/arm64
   - image: "{{ .BUILD_ARG_PKGS_PREFIX }}/kernel:{{ .BUILD_ARG_PKGS }}"
     platform: linux/arm64
@@ -52,6 +58,9 @@ dependencies:
     platform: linux/arm64
     from: /dtb/rockchip/rk3399-rock-4se.dtb
     to: /rootfs/artifacts/arm64/dtb/rockchip/rk3399-rock-4se.dtb
+  - image: "{{ .BUILD_ARG_PKGS_PREFIX }}/kernel:{{ .BUILD_ARG_PKGS }}"
+    from: /dtb/rockchip/rk3566-soquartz-cm4.dtb
+    to: /rootfs/artifacts/arm64/dtb/rockchip/rk3566-soquartz-cm4.dtb
 finalize:
   - from: /rootfs
     to: /

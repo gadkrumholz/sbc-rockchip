@@ -8,4 +8,5 @@ use (
 	./installers/rockpi4c/src
 	./installers/rock4cplus/src
 	./installers/rock4se/src
+	./installers/soquartz-cm4/src
 )
