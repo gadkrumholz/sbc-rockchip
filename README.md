@@ -14,3 +14,4 @@ This repo provides the overlay for RockChip based Talos image.
 | rock4cplus           | Radxa ROCK 4C+        | Overlay for Radxa ROCK 4C+                    |
 | rock4se              | Radxa ROCK 4SE        | Overlay for Radxa ROCK 4SE                    |
 | soquartz-cm4         | Pine64 SOQuartz CM4   | Overlay for Pine64 SOQuartz CM4 module        |
+| turing-rk1           | Turing RK1            | Overlay for Turing RK1                        |

@@ -9,4 +9,5 @@ use (
 	./installers/rock4cplus/src
 	./installers/rock4se/src
 	./installers/soquartz-cm4/src
+	./installers/turing-rk1/src
 )
