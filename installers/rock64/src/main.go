@@ -33,8 +33,7 @@ func (i *rock64) GetOptions(extra rock64ExtraOptions) (overlay.Options, error) {
 	return overlay.Options{
 		Name: "rock64",
 		KernelArgs: []string{
-			"console=tty0",
-			"ttyS2,115200n8",
+			"console=ttyS2,1500000n8",
 			"sysctl.kernel.kexec_load_disabled=1",
 			"talos.dashboard.disabled=1",
 		},

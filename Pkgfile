@@ -18,4 +18,4 @@ vars:
   rkbin_sha256: 9df375316869daadbf874410f4097591c32cc2dca5a30fd328ea7a1cd8f8b6a8
   rkbin_sha512: 715253b5ef5c7fbcbce8478d4dea5ad3d1b4b738da437b5f0e9b31eed20f9bcb86cab082e4c04c69b42b6ffcc2cbb1a31079b33b968bb76826ff0dd4f83043e1
 labels:
-  org.opencontainers.image.source: https://github.com/siderolabs/sbc-rockchip
+  org.opencontainers.image.source: https://github.com/gadkrumholz/sbc-rockchip
